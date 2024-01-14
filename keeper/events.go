@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/ibc-go/v7/modules/core/exported"
 
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/types"
 )
 
 // EmitAcknowledgementEvent emits an event signalling a successful or failed acknowledgement and including the error

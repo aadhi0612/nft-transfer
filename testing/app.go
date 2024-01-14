@@ -21,7 +21,7 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bianjieai/nft-transfer/testing/simapp"
+	"github.com/aadhi0612/nft-transfer/testing/simapp"
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
 )
 

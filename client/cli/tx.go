@@ -15,7 +15,7 @@ import (
 	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
 	channelutils "github.com/cosmos/ibc-go/v7/modules/core/04-channel/client/utils"
 
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/types"
 )
 
 const (

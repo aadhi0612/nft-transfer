@@ -40,51 +40,51 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Improvements
 
-* [\#48](https://github.com/bianjieai/nft-transfer/pull/48) apply audit suggestion.
-* [\#17](https://github.com/bianjieai/nft-transfer/pull/17) replace param proposal with MsgUpdateParams.
-* [\#15](https://github.com/bianjieai/nft-transfer/pull/15) solve the problem of "/" parsing error in classID.
-* [\#55](https://github.com/bianjieai/nft-transfer/pull/55) rename variable name
-* [\#40](https://github.com/bianjieai/nft-transfer/pull/40) bump up IBC-Go.
+* [\#48](https://github.com/aadhi0612/nft-transfer/pull/48) apply audit suggestion.
+* [\#17](https://github.com/aadhi0612/nft-transfer/pull/17) replace param proposal with MsgUpdateParams.
+* [\#15](https://github.com/aadhi0612/nft-transfer/pull/15) solve the problem of "/" parsing error in classID.
+* [\#55](https://github.com/aadhi0612/nft-transfer/pull/55) rename variable name
+* [\#40](https://github.com/aadhi0612/nft-transfer/pull/40) bump up IBC-Go.
 
 
 ## [v1.1.2]
 
 ### API Breaking
 
-* [\#16](https://github.com/bianjieai/nft-transfer/pull/16) return the sequence of packet in `MsgTransferResponse`.
+* [\#16](https://github.com/aadhi0612/nft-transfer/pull/16) return the sequence of packet in `MsgTransferResponse`.
 
 ### Improvements
 
-* [\#11](https://github.com/bianjieai/nft-transfer/pull/11) adjust the verification order of nft.
+* [\#11](https://github.com/aadhi0612/nft-transfer/pull/11) adjust the verification order of nft.
 
 ### Features
 
-* [\#13](https://github.com/bianjieai/nft-transfer/pull/13) add params to control whether the module is enabled
-* [\#18](https://github.com/bianjieai/nft-transfer/pull/13) add params query api
+* [\#13](https://github.com/aadhi0612/nft-transfer/pull/13) add params to control whether the module is enabled
+* [\#18](https://github.com/aadhi0612/nft-transfer/pull/13) add params query api
 
 ### Bug Fixes
 
-* [\#12](https://github.com/bianjieai/nft-transfer/pull/12) fix `critical vulnerability allows attacker to take control of any NFT`.
-* [\#19](https://github.com/bianjieai/nft-transfer/pull/19) fix `delete redundant parameters of the params command`.
-* [\#27](https://github.com/bianjieai/nft-transfer/pull/27) fix `allow value with slashes in URL template`.
+* [\#12](https://github.com/aadhi0612/nft-transfer/pull/12) fix `critical vulnerability allows attacker to take control of any NFT`.
+* [\#19](https://github.com/aadhi0612/nft-transfer/pull/19) fix `delete redundant parameters of the params command`.
+* [\#27](https://github.com/aadhi0612/nft-transfer/pull/27) fix `allow value with slashes in URL template`.
 
 ## [v1.1.2-beta]
 
 ### API Breaking
 
-* [\#16](https://github.com/bianjieai/nft-transfer/pull/16) return the sequence of packet in `MsgTransferResponse`.
+* [\#16](https://github.com/aadhi0612/nft-transfer/pull/16) return the sequence of packet in `MsgTransferResponse`.
 
 ### Improvements
 
-* [\#11](https://github.com/bianjieai/nft-transfer/pull/11) adjust the verification order of nft.
+* [\#11](https://github.com/aadhi0612/nft-transfer/pull/11) adjust the verification order of nft.
 
 ### Features
 
-* [\#13](https://github.com/bianjieai/nft-transfer/pull/13) add params to control whether the module is enabled
+* [\#13](https://github.com/aadhi0612/nft-transfer/pull/13) add params to control whether the module is enabled
 
 ### Bug Fixes
 
-* [\#12](https://github.com/bianjieai/nft-transfer/pull/12) fix `critical vulnerability allows attacker to take control of any NFT`.
+* [\#12](https://github.com/aadhi0612/nft-transfer/pull/12) fix `critical vulnerability allows attacker to take control of any NFT`.
 
 ## [v1.1.1-beta]
 
@@ -96,7 +96,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Improvements
 
-* [\#7](https://github.com/bianjieai/nft-transfer/pull/7) modify JSON encoding rules
+* [\#7](https://github.com/aadhi0612/nft-transfer/pull/7) modify JSON encoding rules
 
 ### Features
 
@@ -110,7 +110,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### State Machine Breaking
 
-* (proto) [\#6](https://github.com/bianjieai/nft-transfer/pull/6) add `class_data` & `token_data` field for `NonFungibleTokenPacketData`, add `memo` field for `MsgTransfer`
+* (proto) [\#6](https://github.com/aadhi0612/nft-transfer/pull/6) add `class_data` & `token_data` field for `NonFungibleTokenPacketData`, add `memo` field for `MsgTransfer`
 
 ### Improvements
 
@@ -122,11 +122,11 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Dependencies
 
-* [\#1](https://github.com/bianjieai/nft-transfer/pull/1) Bump ibc-go to v5.0.1.
+* [\#1](https://github.com/aadhi0612/nft-transfer/pull/1) Bump ibc-go to v5.0.1.
 
 ### API Breaking
 
-* (types/codec) [\#2](https://github.com/bianjieai/nft-transfer/pull/2) `NonFungibleTokenPacketData` uses camel case json encoding.
+* (types/codec) [\#2](https://github.com/aadhi0612/nft-transfer/pull/2) `NonFungibleTokenPacketData` uses camel case json encoding.
 
 ### State Machine Breaking
 
@@ -136,4 +136,4 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Bug Fixes
 
-* (types/packet) [\#3](https://github.com/bianjieai/nft-transfer/pull/3) It should not verify whether the address of the original chain is legal.
+* (types/packet) [\#3](https://github.com/aadhi0612/nft-transfer/pull/3) It should not verify whether the address of the original chain is legal.

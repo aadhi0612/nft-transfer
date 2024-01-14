@@ -6,7 +6,7 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	proto "github.com/gogo/protobuf/proto"
 
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/types"
 )
 
 const ExtensionTypeURL = "/mock.Extension"

@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/types"
 )
 
 // GetSendEnabled retrieves the send enabled boolean from the paramstore

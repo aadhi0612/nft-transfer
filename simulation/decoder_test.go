@@ -7,9 +7,9 @@ package simulation_test
 // 	"github.com/cosmos/cosmos-sdk/types/kv"
 // 	"github.com/stretchr/testify/require"
 
-// 	"github.com/bianjieai/nft-transfer/simulation"
-// 	"github.com/bianjieai/nft-transfer/testing/simapp"
-// 	"github.com/bianjieai/nft-transfer/types"
+// 	"github.com/aadhi0612/nft-transfer/simulation"
+// 	"github.com/aadhi0612/nft-transfer/testing/simapp"
+// 	"github.com/aadhi0612/nft-transfer/types"
 // )
 
 // func TestDecodeStore(t *testing.T) {

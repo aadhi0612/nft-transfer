@@ -9,10 +9,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 
-	ics721testing "github.com/bianjieai/nft-transfer/testing"
-	"github.com/bianjieai/nft-transfer/testing/mock"
-	"github.com/bianjieai/nft-transfer/testing/simapp"
-	"github.com/bianjieai/nft-transfer/types"
+	ics721testing "github.com/aadhi0612/nft-transfer/testing"
+	"github.com/aadhi0612/nft-transfer/testing/mock"
+	"github.com/aadhi0612/nft-transfer/testing/simapp"
+	"github.com/aadhi0612/nft-transfer/types"
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
 )
 

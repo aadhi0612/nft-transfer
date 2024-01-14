@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/bianjieai/nft-transfer/testing/simapp"
-	"github.com/bianjieai/nft-transfer/testing/simapp/simd/cmd"
+	"github.com/aadhi0612/nft-transfer/testing/simapp"
+	"github.com/aadhi0612/nft-transfer/testing/simapp/simd/cmd"
 )
 
 func main() {

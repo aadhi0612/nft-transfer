@@ -20,5 +20,5 @@ buf generate --template buf.gen.gogo.yaml $file
 cd ..
 
 # move proto files to the right places
-cp -r github.com/bianjieai/nft-transfer/* ./
+cp -r github.com/aadhi0612/nft-transfer/* ./
 rm -rf github.com

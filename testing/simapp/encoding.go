@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/std"
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/bianjieai/nft-transfer/testing/mock"
+	"github.com/aadhi0612/nft-transfer/testing/mock"
 	simappparams "github.com/cosmos/ibc-go/v7/testing/simapp/params"
 )
 

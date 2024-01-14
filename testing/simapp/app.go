@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bianjieai/nft-transfer/testing/mock"
+	"github.com/aadhi0612/nft-transfer/testing/mock"
 	dbm "github.com/cometbft/cometbft-db"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/libs/log"
@@ -123,9 +123,9 @@ import (
 	"github.com/cosmos/ibc-go/v7/testing/simapp/upgrades"
 	ibctestingtypes "github.com/cosmos/ibc-go/v7/testing/types"
 
-	nfttransfer "github.com/bianjieai/nft-transfer"
-	ibcnfttransferkeeper "github.com/bianjieai/nft-transfer/keeper"
-	ibcnfttransfertypes "github.com/bianjieai/nft-transfer/types"
+	nfttransfer "github.com/aadhi0612/nft-transfer"
+	ibcnfttransferkeeper "github.com/aadhi0612/nft-transfer/keeper"
+	ibcnfttransfertypes "github.com/aadhi0612/nft-transfer/types"
 
 	"github.com/cosmos/ibc-go/v7/testing/simapp"
 )

@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/nft"
 	nftkeeper "github.com/cosmos/cosmos-sdk/x/nft/keeper"
 
-	nfttransfer "github.com/bianjieai/nft-transfer/types"
+	nfttransfer "github.com/aadhi0612/nft-transfer/types"
 )
 
 type (

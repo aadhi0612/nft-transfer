@@ -16,8 +16,8 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bianjieai/nft-transfer/testing/simapp"
-	simcmd "github.com/bianjieai/nft-transfer/testing/simapp/simd/cmd"
+	"github.com/aadhi0612/nft-transfer/testing/simapp"
+	simcmd "github.com/aadhi0612/nft-transfer/testing/simapp/simd/cmd"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

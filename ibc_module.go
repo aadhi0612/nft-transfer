@@ -9,8 +9,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 
-	"github.com/bianjieai/nft-transfer/keeper"
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/keeper"
+	"github.com/aadhi0612/nft-transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 	porttypes "github.com/cosmos/ibc-go/v7/modules/core/05-port/types"
 	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
@@ -182,9 +182,9 @@ func (im IBCModule) OnRecvPacket(
 	relayer sdk.AccAddress,
 ) ibcexported.Acknowledgement {
 	var (
-		ack  = channeltypes.NewResultAcknowledgement([]byte{byte(1)})
-		data types.NonFungibleTokenPacketData
-		ackErr  error
+		ack    = channeltypes.NewResultAcknowledgement([]byte{byte(1)})
+		data   types.NonFungibleTokenPacketData
+		ackErr error
 	)
 
 	if err := types.ModuleCdc.UnmarshalJSON(packet.GetData(), &data); err != nil {

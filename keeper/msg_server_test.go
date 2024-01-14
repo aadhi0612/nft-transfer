@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/types"
 )
 
 func (suite *KeeperTestSuite) TestMsgUpdateParams() {

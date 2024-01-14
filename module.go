@@ -17,10 +17,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/bianjieai/nft-transfer/client/cli"
-	"github.com/bianjieai/nft-transfer/keeper"
-	"github.com/bianjieai/nft-transfer/simulation"
-	"github.com/bianjieai/nft-transfer/types"
+	"github.com/aadhi0612/nft-transfer/client/cli"
+	"github.com/aadhi0612/nft-transfer/keeper"
+	"github.com/aadhi0612/nft-transfer/simulation"
+	"github.com/aadhi0612/nft-transfer/types"
 	porttypes "github.com/cosmos/ibc-go/v7/modules/core/05-port/types"
 )
 

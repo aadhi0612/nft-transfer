@@ -1,6 +1,6 @@
 go 1.19
 
-module github.com/bianjieai/nft-transfer
+module github.com/aadhi0612/nft-transfer
 
 require (
 	github.com/cosmos/cosmos-sdk v0.47.4
@@ -80,7 +80,6 @@ require (
 	github.com/go-kit/kit v0.12.0 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
-	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
 	github.com/gogo/googleapis v1.4.1 // indirect
 	github.com/golang/glog v1.1.0 // indirect

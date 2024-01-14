@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mock;
 
-option go_package = "github.com/bianjieai/nft-transfer/testing/mock";
+option go_package = "github.com/aadhi0612/nft-transfer/testing/mock";
 
 import "gogoproto/gogo.proto";
 

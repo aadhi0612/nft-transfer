@@ -38,7 +38,7 @@ import (
 
 	"github.com/cosmos/ibc-go/v7/testing/simapp/params"
 
-	"github.com/bianjieai/nft-transfer/testing/simapp"
+	"github.com/aadhi0612/nft-transfer/testing/simapp"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the
